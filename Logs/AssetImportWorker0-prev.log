@@ -15,11 +15,11 @@ D:/M (3)/Unity/latihanIsometric
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49534
+59445
 Successfully changed project path to: D:/M (3)/Unity/latihanIsometric
 D:/M (3)/Unity/latihanIsometric
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 157.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 190.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Resources/UnitySubsystems
@@ -27,99 +27,99 @@ Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f10)
-    Vendor:   NVIDIA
-    VRAM:     8031 MB
-    Driver:   30.0.14.7141
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16308 MB
+    Driver:   26.20.100.6911
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003523 seconds.
+Registered in 0.003524 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 185.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 350.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.604 seconds
+- Completed reload, in  3.534 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2605ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (3535ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (1284ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (434ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (463ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (642ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (186ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (350ms)
 				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005454 seconds.
+Registered in 0.005548 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 194.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 160.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.649 seconds
+- Completed reload, in  4.549 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2649ms)
-		BeginReloadAssembly (332ms)
+	ReloadAssembly (4552ms)
+		BeginReloadAssembly (1599ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (54ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (2203ms)
-			LoadAssemblies (324ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (2332ms)
+			LoadAssemblies (953ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (682ms)
+			SetupTypeCache (707ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (136ms)
-			SetupLoadedEditorAssemblies (888ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (757ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (194ms)
-				BeforeProcessingInitializeOnLoad (189ms)
-				ProcessInitializeOnLoadAttributes (452ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.3 MB.
 System memory in use after: 136.5 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4126.
-Total: 8.819000 ms (FindLiveObjects: 0.524900 ms CreateObjectMapping: 0.351700 ms MarkObjects: 7.820000 ms  DeleteObjects: 0.120600 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 6.905800 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.305300 ms MarkObjects: 6.129600 ms  DeleteObjects: 0.121300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,181 +134,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Down End.prefab
-  artifactKey: Guid(9deb8c984de6c498f9526f4cc2f25087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Down End.prefab using Guid(9deb8c984de6c498f9526f4cc2f25087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addf7131c1f001f0f5c62cbf02e579f5') in 0.238170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Textures/roadside.png
-  artifactKey: Guid(50df7ee92e6fc40c3a12f8bd6ca02a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Textures/roadside.png using Guid(50df7ee92e6fc40c3a12f8bd6ca02a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfef0f0ac1826c26b69bf0279b29aa25') in 0.151836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Vertical Right Road.prefab
-  artifactKey: Guid(867b88ab6853c41dab8ef1d2f64406fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Vertical Right Road.prefab using Guid(867b88ab6853c41dab8ef1d2f64406fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545e687f7b19799f1a127454aeed5e7e') in 0.023964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Left Down Road.prefab
-  artifactKey: Guid(f8b32ee1a373f4ce9a9b91b9e9cbdf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Left Down Road.prefab using Guid(f8b32ee1a373f4ce9a9b91b9e9cbdf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8261ade71e320c6f756240b92639595') in 0.019964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Textures/buildings_stores.png
-  artifactKey: Guid(805645b93dbaa407d942444928f5b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Textures/buildings_stores.png using Guid(805645b93dbaa407d942444928f5b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548e4b619ba591ac0c8d86f8a989ab48') in 0.042451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Vertical Road.prefab
-  artifactKey: Guid(42f6c7eec51d04072b8a7aa17d28ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Vertical Road.prefab using Guid(42f6c7eec51d04072b8a7aa17d28ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b59d9b8e661a9e69496c783ef9c6b0f') in 0.020242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Left End Road.prefab
-  artifactKey: Guid(8ef4a97732a3545739c8a66ce069cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Left End Road.prefab using Guid(8ef4a97732a3545739c8a66ce069cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37aae3d824037894cdb9517591f3e7a') in 0.022424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Horizontal Road.prefab
-  artifactKey: Guid(3a3f7a4631db5475cac51f87bc4369de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Horizontal Road.prefab using Guid(3a3f7a4631db5475cac51f87bc4369de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26b32168dd614a76017388a48a5e7fa') in 0.027857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Up Right Road.prefab
-  artifactKey: Guid(f4fa2c2b36dea432b922f304f81b3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Up Right Road.prefab using Guid(f4fa2c2b36dea432b922f304f81b3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a474488e3a8eb065912f2802fdeda01e') in 0.023764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Right Down Road.prefab
-  artifactKey: Guid(4ae2e3ed925fd4e8cbe5d27a93800bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Right Down Road.prefab using Guid(4ae2e3ed925fd4e8cbe5d27a93800bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0327a0fe55c991336daefe4fc0b9bad6') in 0.024269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Textures/houses.png
-  artifactKey: Guid(6103160a6bc0f4c08aded9cd73c072cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Textures/houses.png using Guid(6103160a6bc0f4c08aded9cd73c072cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b172a574c671cea9b7ee0c29e35d0dc') in 0.101225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Up End Road.prefab
-  artifactKey: Guid(3db11df16edc74376aaf4fa8053ef39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Up End Road.prefab using Guid(3db11df16edc74376aaf4fa8053ef39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10f7cb23b9ea54fa0f50c885ec75d18') in 0.022500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Cross Road.prefab
-  artifactKey: Guid(9aafb728ee16846c88f7f120e593edde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Cross Road.prefab using Guid(9aafb728ee16846c88f7f120e593edde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbac51b1982fa5dae4b78646c2ddb06') in 0.023012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Textures/trees.png
-  artifactKey: Guid(e36a5cb250312486faa1dcc699c2daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Textures/trees.png using Guid(e36a5cb250312486faa1dcc699c2daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663c95db8506b6d9389b79ed0d311b93') in 0.061101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Textures/grounds.png
-  artifactKey: Guid(59ce746d504884d5685c84f49cd392c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Textures/grounds.png using Guid(59ce746d504884d5685c84f49cd392c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6669d58a1d24ea7f51aaec94767d92ea') in 0.098810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles
-  artifactKey: Guid(1412dd1a0b94b4265860c2aca436f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles using Guid(1412dd1a0b94b4265860c2aca436f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08280f65c3cca32a3e5288e385c42c') in 0.007378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Clear.prefab
-  artifactKey: Guid(c3226049e641c411f808a1dfec68e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Clear.prefab using Guid(c3226049e641c411f808a1dfec68e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd345f4e92cc740a34a6b6792ee9cf6ba') in 0.020393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Left Up Road.prefab
-  artifactKey: Guid(169af656c4a2f4ac191e0b3ee6421046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Left Up Road.prefab using Guid(169af656c4a2f4ac191e0b3ee6421046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb99cc82d0ff038b86e34927c9cfb9a0') in 0.017975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Horizontal Down Road.prefab
-  artifactKey: Guid(746a518c5f59e4d3e94b2bc9de38c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Horizontal Down Road.prefab using Guid(746a518c5f59e4d3e94b2bc9de38c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8c2f6915e4db3539a52233442d4460') in 0.020950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Tiles.mat
-  artifactKey: Guid(2d942bd42c3be4e0fb18ac38355339cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Tiles.mat using Guid(2d942bd42c3be4e0fb18ac38355339cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af433ab915f73b8b9106e1f017e25e7') in 0.106856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Cute Isometric Town/Tiles
-  artifactKey: Guid(90d228854b1ae422ab07ff40c0e4b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles using Guid(90d228854b1ae422ab07ff40c0e4b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cef0788a53a04bc51fc27816972dee') in 0.002790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Horizontal Up Road.prefab
-  artifactKey: Guid(3de4eac85c2624b499661519a75f23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Horizontal Up Road.prefab using Guid(3de4eac85c2624b499661519a75f23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cb7d5e1d12555fcb7028d0ffe8c46c') in 0.019132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Right End Road.prefab
-  artifactKey: Guid(6adcb5b3e642f49c1b6851c690291861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Right End Road.prefab using Guid(6adcb5b3e642f49c1b6851c690291861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3c74f4067e0ccaabd66a9985f4d467') in 0.021172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Vertical Left Road.prefab
-  artifactKey: Guid(bb7c883dd7ff44427863877eafc0cf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Ground Tiles/Snowy Ground Vertical Left Road.prefab using Guid(bb7c883dd7ff44427863877eafc0cf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f64c7f218bc32dc740799c1d61567c') in 0.031411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.744074 seconds.
-  path: Assets/Cute Isometric Town/Tiles/Objects/Buildings
-  artifactKey: Guid(b376d4ce52cc84a4f9d4049e389b93e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cute Isometric Town/Tiles/Objects/Buildings using Guid(b376d4ce52cc84a4f9d4049e389b93e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1c70518788db0ed79b8dd9152dda42') in 0.009559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3331.092064 seconds.
-  path: Assets/All/0x72_16x16DungeonTileset.v4.png
-  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7ada2a3d4f5e00f7ea8b8c7cb5e8ef') in 0.020882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29627.049448 seconds.
-  path: Assets/All/0x72_16x16DungeonTileset.v4.png
-  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161324f3aebaa6e6cef04b22026b6b47') in 0.028754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1898.730433 seconds.
-  path: Assets/All/0x72_16x16DungeonTileset.v4.png
-  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07a4794ca0c28bf494adf9327cdfd1c') in 0.047039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 168.324989 seconds.
-  path: Assets/All/0x72_16x16DungeonTileset.v4.png
-  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c733f73b5f89fb03facd8fd96360be04') in 0.020246 seconds 
+  path: Assets/Player.cs
+  artifactKey: Guid(327e7f0d7cb4a9043b6e35f9d491d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(327e7f0d7cb4a9043b6e35f9d491d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eee75473a308444722bec546e0cdb84') in 0.184381 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006199 seconds.
+Registered in 0.005360 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -316,101 +148,42 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.289 seconds
+- Completed reload, in  1.878 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2291ms)
-		BeginReloadAssembly (456ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (56ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (201ms)
-		EndReloadAssembly (1701ms)
-			LoadAssemblies (208ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (643ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (572ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (391ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (27ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3673 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.4 MB.
-System memory in use after: 152.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4310.
-Total: 5.054600 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.257400 ms MarkObjects: 4.408900 ms  DeleteObjects: 0.030200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005335 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.019 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2020ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1878ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1707ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1556ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (642ms)
+			SetupTypeCache (596ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (571ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (400ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (371ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3666 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.2 MB.
-System memory in use after: 152.5 MB.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4312.
-Total: 5.356600 ms (FindLiveObjects: 0.515200 ms CreateObjectMapping: 0.426000 ms MarkObjects: 4.377200 ms  DeleteObjects: 0.036700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 5.159100 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.307500 ms MarkObjects: 4.396200 ms  DeleteObjects: 0.032700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -426,7 +199,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005158 seconds.
+Registered in 0.005248 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -434,42 +207,42 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.806 seconds
+- Completed reload, in  1.942 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1807ms)
-		BeginReloadAssembly (197ms)
+	ReloadAssembly (1943ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1508ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (545ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (529ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (372ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.6 MB.
+System memory in use before: 135.8 MB.
+System memory in use after: 136.1 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4316.
-Total: 5.300700 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.290900 ms MarkObjects: 4.608500 ms  DeleteObjects: 0.033000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4133.
+Total: 4.760100 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.285500 ms MarkObjects: 4.084200 ms  DeleteObjects: 0.029500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -485,50 +258,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005251 seconds.
+Registered in 0.006307 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.818 seconds
+- Completed reload, in  2.041 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1819ms)
-		BeginReloadAssembly (223ms)
+	ReloadAssembly (2041ms)
+		BeginReloadAssembly (274ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1496ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1627ms)
+			LoadAssemblies (197ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (533ms)
+			SetupTypeCache (609ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (537ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (563ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (385ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.6 MB.
+System memory in use before: 135.9 MB.
+System memory in use after: 136.1 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4319.
-Total: 4.997200 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.256400 ms MarkObjects: 4.357800 ms  DeleteObjects: 0.026900 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4136.
+Total: 4.939100 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.271800 ms MarkObjects: 4.291700 ms  DeleteObjects: 0.031600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -541,3 +314,270 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007183 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1539ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (562ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4139.
+Total: 4.753600 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.281200 ms MarkObjects: 4.083800 ms  DeleteObjects: 0.027900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2004ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1649ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (639ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4142.
+Total: 5.839500 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.275800 ms MarkObjects: 5.166100 ms  DeleteObjects: 0.041100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9472.463939 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(327e7f0d7cb4a9043b6e35f9d491d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(327e7f0d7cb4a9043b6e35f9d491d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1276a703920f13295f4568d62f520a') in 0.020884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 623.665672 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(327e7f0d7cb4a9043b6e35f9d491d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(327e7f0d7cb4a9043b6e35f9d491d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212bc83a46235a0b60ac3ee884d69191') in 0.003749 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1986ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1661ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (619ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4145.
+Total: 6.979600 ms (FindLiveObjects: 0.424500 ms CreateObjectMapping: 0.428600 ms MarkObjects: 6.085000 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005755 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\M (3)\Unity\latihanIsometric\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.352 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2353ms)
+		BeginReloadAssembly (458ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (205ms)
+		EndReloadAssembly (1767ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (678ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4148.
+Total: 8.120900 ms (FindLiveObjects: 0.639200 ms CreateObjectMapping: 0.337100 ms MarkObjects: 7.062300 ms  DeleteObjects: 0.078500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9506.142282 seconds.
+  path: Assets/All/0x72_16x16DungeonTileset.v4.png
+  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6036616122b4cc3835fdaf80c38ad0f0') in 0.162157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.246828 seconds.
+  path: Assets/All/0x72_16x16DungeonTileset.v4.png
+  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9c7151d571df63523cf78293d08a98') in 0.021789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.143964 seconds.
+  path: Assets/All/0x72_16x16DungeonTileset.v4.png
+  artifactKey: Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/0x72_16x16DungeonTileset.v4.png using Guid(ba368e59c5ef26945b4fa98c0989f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c9c11eabb4ebfb4a2f6a08dcf6e45b') in 0.023568 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
